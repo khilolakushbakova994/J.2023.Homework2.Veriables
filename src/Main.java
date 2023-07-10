@@ -128,6 +128,9 @@ public class Main {
         var hourPerPerson = 8 ;
         var numferOfStuff = totalWorkingHours / hourPerPerson;
         System.out.println("Всего работников в компании -  " + numferOfStuff + "  человек");
+        var moreWorkers = numferOfStuff + 94;
+        var moreTotalHours = moreWorkers * hourPerPerson;
+        System.out.println( "Если в компании работает  " + moreWorkers + " ,человек  то всего   " + moreTotalHours + "  часов работы может быть поделено между сотрудниками" );
 
 
 
